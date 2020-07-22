@@ -53,6 +53,8 @@ class Parser
      * @param string $jwt
      *
      * @return Token
+     *
+     * @throws InvalidArgumentException When JWT is not a string or is invalid
      */
     public function parse($jwt)
     {
